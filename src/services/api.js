@@ -16,5 +16,8 @@ apiClient.interceptors.request.use(request => {
 export default {
   getHello(){
     return apiClient.get(`/hello`);
-  }  
+  },
+  getTask(){
+      return apiClient.get('')
+  }
 };
